@@ -196,8 +196,7 @@ export default function Portfolio() {
                   "Django",
                   "REST API",
                   "MySQL",
-                  "MongoDB",
-                  "DSA",
+                  "MongoDB",                  
                 ],
               },
               {
