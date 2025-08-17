@@ -322,6 +322,15 @@ export default function Portfolio() {
                 github: "https://github.com/developergith/Digital-Shiksha_Academy.git",
                 demo: "https://digitalshikshaacademy.netlify.app/",
               },
+
+               {
+               title: "Travel-website",
+                description: "A responsive travel website built with modern web technologies.",
+                image: "/Travelworld.webp?height=400&width=600",
+                tags: ["nextjs", "Tailwind CSS", "JavaScript", "HTML", "CSS", "TypeScript"],
+                github: "https://github.com/developergith/Travel-website.git",
+                demo: "https://travelwith-us-website.netlify.app/",
+              },
               /* 
                {
                 title: "Chat Application",
