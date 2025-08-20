@@ -157,13 +157,14 @@ export default function Portfolio() {
                 Over the past two years, I’ve been actively working with JavaScript, and for the last year, I’ve specialized in building dynamic frontend interfaces using React.js, along with backend services using Node.js, Express, and MongoDB. I write clean, maintainable code, follow modern development practices like RESTful API integration, component-based architecture, and responsive design using Tailwind CSS and React Hooks. My goal is to build scalable applications that solve real business problems and provide a seamless user experience.
               </p>
 
-              <a
-                href="/Ayush_Nath_Motichur_Resume.pdf"
-                download
-                className="inline-block px-2 py-2 rounded-lg border border-primary text-primary hover:bg-primary hover:text-white transition-colors duration-300"
-              >
-                Download Resume
-              </a>
+            <a
+  href="/Ayush_Nath_Motichur_Resume.pdf"
+  download
+  className="inline-block px-2 py-2 rounded-lg border border-primary text-primary hover:bg-primary hover:text-white transition-colors duration-300"
+>
+  Download Resume
+</a>
+
             </div>
           </div>
         </div>
