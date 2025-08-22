@@ -275,8 +275,8 @@ export default function Portfolio() {
                   "🍕 Foodingo frontend built with React and Tailwind CSS — fast, responsive, and user-friendly food delivery UI.",
                 image: "/foodingo.png?height=400&width=600",
                 tags: ["React", "Tailwind CSS", "JavaScript"],
-                github: "https://github.com/developergith/foodingo-frontend-main.git",
-                demo: "https://foodingo.netlify.app/",
+                github: "#",
+                demo: "#",
               },
               {
                 title: "Background Remover",
