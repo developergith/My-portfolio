@@ -158,7 +158,7 @@ export default function Portfolio() {
               </p>
 
             <a
-  href="public/Ayush-resume.pdf"
+  href="/Ayush-resume.pdf"
   download
   className="inline-block px-2 py-2 rounded-lg border border-primary text-primary hover:bg-primary hover:text-white transition-colors duration-300"
 >
