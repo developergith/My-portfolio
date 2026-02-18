@@ -265,7 +265,7 @@ export default function Portfolio() {
             transition={{ duration: 1 }}
             className="mt-6 text-lg md:text-xl text-gray-600 dark:text-gray-300 max-w-2xl mx-auto"
           >
-            Full Stack Developer(React & Node.js) | AWS & Azure DevOps | Docker | Building Scalable Web Applications
+            Full Stack Developer | MERN Stack | AWS | Docker | CI/CD | Building Scalable Web Applications
           </motion.p>
 
           <motion.div
