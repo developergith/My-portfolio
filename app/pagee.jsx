@@ -67,6 +67,16 @@ export default function Portfolio() {
 
   const projects = [
     {
+      title: "aws-cloud-hands-on-labs",
+      description:
+        "An AWS Solution Architect is responsible for designing, implementing, and managing cloud-based solutions using Amazon Web Services (AWS). Their role bridges business requirements with technical solutions, ensuring scalability, security, and cost-efficiency.",
+      image: "/aws-solution-architect-igmguru_754169845_l-1.jpg",
+      tags: ["EC2", "VPC", "IAM", "RDS", "ASG", "ALB", "CloudFront", "Lambda", "CloudWatch", "S3", "Route53", "More About AWS Services"],
+      github: "https://github.com/developergith/aws-cloud-hands-on-labs.git",
+      demo: "#",
+    },
+
+    {
       title: "Foodingo",
       description:
         "Foodingo frontend built with React and Tailwind CSS — fast, responsive, and user-friendly food delivery UI.",
@@ -94,13 +104,13 @@ export default function Portfolio() {
       demo: "https://todesktopapp.netlify.app/",
     },
     {
-      title: "Spotify Music",
+      title: "music-stream-ui",
       description:
         "Spotify-inspired responsive music streaming app with search and playback features.",
-      image: "/header.png",
+      image: "/Laptop-UI.png",
       tags: ["React", "Tailwind CSS", "Spotify API", "JavaScript"],
-      github: "https://github.com/developergith/Spotify-music.git",
-      demo: "https://spotify-gana.netlify.app/",
+      github: "https://github.com/developergith/music-stream-ui.git",
+      demo: "https://music-stream-ui.netlify.app/",
     },
     {
       title: "Solar System",
@@ -143,9 +153,9 @@ export default function Portfolio() {
       title: "AI-Interview",
       description:
         "AI-powered interview preparation platform offering personalized feedback and practice questions.",
-        image:"/Ai-interview-dash.png",
-        tags: ["React", "tailwind CSS", "Node.js", "MongoDB", "Express.js"],
-        demo: "https://ai-interview-proo.netlify.app/",
+      image: "/Ai-interview-dash.png",
+      tags: ["React", "tailwind CSS", "Node.js", "MongoDB", "Express.js"],
+      demo: "https://ai-interview-proo.netlify.app/",
     },
   ];
 
@@ -265,7 +275,7 @@ export default function Portfolio() {
             transition={{ duration: 1 }}
             className="mt-6 text-lg md:text-xl text-gray-600 dark:text-gray-300 max-w-2xl mx-auto"
           >
-            Full Stack Developer | MERN Stack | AWS | Docker | CI/CD | Building Scalable Web Applications
+           Full Stack Developer (MERN Stack) | Cloud & DevOps | Building Scalable Web Applications
           </motion.p>
 
           <motion.div
@@ -296,6 +306,101 @@ export default function Portfolio() {
           </motion.div>
         </div>
       </section>
+
+      {/* Certificates */}
+      <section className="py-16 bg-white dark:bg-black text-center">
+
+        <h2 className="text-3xl font-bold mb-10">
+          My Certificates
+        </h2>
+
+        <div className="grid md:grid-cols-3 gap-8 px-6 max-w-6xl mx-auto">
+
+          {/* Certificate 1 */}
+          <div className="bg-gray-100 dark:bg-gray-900 rounded-xl p-4 shadow">
+            <img
+              src="/aws.png"
+              alt="AWS Certificate"
+              className="w-full h-48 object-cover rounded-lg"
+            />
+
+            <h3 className="mt-4 font-semibold">
+              AWS Solutions Architect Associate
+            </h3>
+
+            <a
+              href="https://skillsoft.digitalbadges.skillsoft.com/c82448e3-8d42-4bf2-94bd-e0c99886dec0#acc.l63Q1ZBy"
+              target="_blank"
+              className="text-blue-500 text-sm"
+            >
+              Verify Certificate
+            </a>
+          </div>
+
+          {/* Certificate 2 */}
+          <div className="bg-gray-100 dark:bg-gray-900 rounded-xl p-4 shadow">
+            <img
+              src="/mongoDB.png"
+              alt="React Certificate"
+              className="w-full h-48 object-cover rounded-lg"
+            />
+
+            <h3 className="mt-4 font-semibold">
+
+              Securing MongoDB Self-Managed: Authentication & Authorization
+            </h3>
+
+            <a
+              href="https://www.credly.com/badges/cffcb046-56ca-4d4d-b130-1458a845bd01/linked_in_profile"
+              target="_blank"
+              className="text-blue-500 text-sm"
+            >
+              Verify Certificate
+            </a>
+          </div>
+
+          {/* Certificate 3 */}
+          <div className="bg-gray-100 dark:bg-gray-900 rounded-xl p-4 shadow">
+            <img
+              src="/terraform.png"
+              alt="Terraform Certificate"
+              className="w-full h-48 object-cover rounded-lg"
+            />
+
+            <h3 className="mt-4 font-semibold">
+              Terraform Associate
+            </h3>
+
+            <a
+              href="https://skillsoft.digitalbadges.skillsoft.com/b32eb6e7-aed4-470a-ae66-dc4668c40ceb#acc.3q18s7gz"
+              target="_blank"
+              className="text-blue-500 text-sm"
+            >
+              Verify Certificate
+            </a>
+          </div>
+
+          {/* Certificate 4 */}
+          <div className="bg-gray-100 dark:bg-gray-900 rounded-xl p-4 shadow">
+            <h3 className="mt-4 font-semibold">
+
+               More certificates on LinkedIn-page
+            </h3>
+
+            <a
+              href="https://www.linkedin.com/in/ayush-nath-motichoor-7012102b2/details/certifications/"
+              target="_blank"
+              className="text-blue-500 text-sm"
+            >
+              Verify Certificate
+            </a>
+          </div>
+
+        
+
+        </div>
+      </section>
+
       {/* About Section */}
       <section
         id="about"
@@ -352,7 +457,7 @@ export default function Portfolio() {
 
               {/* Resume Button */}
               <a
-                href="/Ayush-resume.pdf"
+                href="/Ayush-resume.docx"
                 download
                 className="inline-flex items-center gap-2 px-6 py-3 rounded-xl 
                      bg-gradient-to-r from-purple-600 to-blue-600 
@@ -409,10 +514,10 @@ export default function Portfolio() {
               },
 
               {
-                name: "☁️ Cloud & DevOps:",
+                name: "Cloud & DevOps:",
                 skills: [
-                  "AWS: EC2, S3, IAM, CloudWatch",
-                  "Azure DevOps: CI/CD pipelines, Boards, Repos",
+                  "AWS: EC2, VPC, IAM, RDS, ASG, ALB, CloudFront, Lambda, CloudWatch, S3, Route53",
+                  "Azure DevOps: CI/CD pipelines, Boards, Repos,Artifacts",
                 ]
               },
               {
