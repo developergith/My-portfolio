@@ -33,26 +33,37 @@ export default function About() {
           <div>
             <p className="text-lg leading-relaxed text-gray-700 dark:text-gray-300 mb-6">
               I'm a passionate{" "}
-              <span className="font-semibold text-purple-600">Full Stack Developer</span>{" "}
-              with strong expertise in the MERN stack (MongoDB, Express.js, React.js, Node.js),
-              focused on building scalable, secure, and production-ready web applications.
-              Currently pursuing B.Tech, I enjoy transforming complex problems into efficient
-              digital solutions with clean architecture and performance-driven design.
+              <span className="font-semibold text-purple-600">AWS DevOps Engineer| MERN Stack Developer</span>{" "}
+              am a DevOps & Cloud Engineer with hands-on experience in building, automating, and deploying infrastructure on AWS. I work with the complete DevOps toolchain — Docker, Kubernetes, Terraform, Ansible, and GitHub Actions & Jenkins CI/CD pipelines.
+
+
+
+              On the infrastructure side, I provision AWS resources including  My AWS experience spans EC2, VPC, IAM, S3, RDS, CloudFront,  CloudWatch, Lambda, Route53, ECS/EKS, SQS/SNS, and AI services including AWS Bedrock and  SageMaker.  using Terraform as Infrastructure as Code. I use Ansible for automated configuration management and deployments.
             </p>
 
             <p className="text-lg leading-relaxed text-gray-700 dark:text-gray-300 mb-8">
-              I bring 2+ years of experience in JavaScript development and hands-on expertise
-              in React.js, Node.js, Express, and MongoDB. Beyond application development,
-              I have practical exposure to Docker-based containerization, CI/CD automation
-              using Jenkins, and cloud architecture aligned with AWS Solutions Architect
-              principles, along with deployment workflows in Azure DevOps.
-              I prioritize RESTful API design, secure authentication, and modern UI development
-              using Tailwind CSS to deliver high-performance, cloud-ready applications.
+              I containerize applications using Docker, write Kubernetes manifests for deployments, and build end-to-end CI/CD pipelines that automatically build, test, and deploy on every code push.
+
+
+
+              I also write technical articles on Medium covering DevOps, AWS, and Cloud topics — sharing practical hands-on labs and project walkthroughs.
+
+
+
+              Additionally I have a  foundation FullStack development with node.js  ,Express.js , React , MongoDB which helps me understand applications I deploy and work effectively with dev teams.
+
+
+
+              #Actively looking for Junior DevOps Engineer / DevOps Trainee / Cloud Engineer roles.
+
+
+
+              # Open to:  Hybrid | Remote
             </p>
 
             {/* Resume Button */}
             <a
-              href="/Ayush-resume.docx"
+              href="/ayush_resume.pdf"
               download
               className="inline-flex items-center gap-2 px-6 py-3 rounded-xl 
                          bg-gradient-to-r from-purple-600 to-blue-600 

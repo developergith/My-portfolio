@@ -11,24 +11,21 @@ const skillCategories = [
     name: "Frontend Development",
     skills: ["React", "Tailwind CSS", "HTML/CSS", "Bootstrap"],
   },
-  {
-    name: "UI/UX Design",
-    skills: ["Figma", "Responsive Design"],
-  },
+ 
   {
     name: "Backend Development",
-    skills: ["Node.js", "Express", "REST API", "MySQL", "MongoDB"],
+    skills: ["Node.js", "Express", "REST API", "MongoDB"],
   },
   {
     name: "Tools & Methods",
-    skills: ["Git", "GitHub", "Render", "Docker", "Postman"],
+    skills: ["Git", "GitHub", "Render", "Postman"],
   },
   {
     name: "Cloud & DevOps",
     skills: [
-      "AWS: EC2, VPC, IAM, RDS, ASG, ALB, CloudFront, Lambda, CloudWatch, S3, Route53",
-      "Azure DevOps: CI/CD pipelines, Boards, Repos, Artifacts",
-    ],
+      "AWS: EC2, VPC, IAM, RDS, ASG, ALB, CloudFront, Lambda, CloudWatch, S3, Route53","SQS/SNS", "ECS/EKS",
+      "Docker", "Terraform", "Ansible", "Kubernetes", "CI/CD Pipelines", "Github Actions", "Jenkins", ]
+    
   },
   {
     name: "Soft Skills",
@@ -46,11 +43,11 @@ export default function Skills() {
   return (
     <section id="skills" className="relative py-24 bg-black overflow-hidden">
 
-      {/* 🔥 Glow Background */}
+      {/* Glow Background */}
       <div className="absolute top-0 left-0 w-72 h-72 bg-purple-500/20 blur-3xl"></div>
       <div className="absolute bottom-0 right-0 w-72 h-72 bg-blue-500/20 blur-3xl"></div>
 
-      {/* 🔥 Grid Background (subtle) */}
+      {/* Grid Background (subtle) */}
       <div className="absolute inset-0 bg-[linear-gradient(to_right,#ffffff10_1px,transparent_1px),linear-gradient(to_bottom,#ffffff10_1px,transparent_1px)] bg-[size:40px_40px]" />
 
       {/* Content */}
